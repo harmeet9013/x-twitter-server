@@ -1,0 +1,41 @@
+{
+    "name": "x-twitter-server",
+    "version": "0.1.0",
+    "description": "X-Twitter application Backend",
+    "main": "./api/index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node api/index.js",
+        "dev": "nodemon api/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/harmeet9013/x-twitter-server.git"
+    },
+    "keywords": [
+        "X-Twitter-Server"
+    ],
+    "author": "Harmeet Singh",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/harmeet9013/x-twitter-server/issues"
+    },
+    "homepage": "https://github.com/harmeet9013/x-twitter-server#readme",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.20.2",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "http-errors": "^2.0.0",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^8.4.5",
+        "mongoose-unique-validator": "^5.0.1",
+        "multer": "^1.4.5-lts.1",
+        "uuid": "^10.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.4"
+    }
+}
